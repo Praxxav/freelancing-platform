@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+
 import { HiMoon, HiSun, HiSearch, HiChevronDown, HiUserAdd } from 'react-icons/hi';
 
 interface NavBarProps {
@@ -108,7 +109,7 @@ const NavBar: React.FC<NavBarProps> = ({ darkMode, toggleDarkMode }) => {
           </div>
 
           <Link to="/about" className="hover:text-green-500">About</Link>
-          <Link to="/contact" className="hover:text-green-500">Signin</Link>
+          <Link to="/Signin" className="hover:text-green-500">Signin</Link>
 
           {/* Signup Button */}
           <Link to="/signup" className="flex items-center text-green-500">

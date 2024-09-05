@@ -12,8 +12,6 @@ export const userRouter = new Hono<{
 }>();
 
 userRouter.post('/signup', async (c) => {
-
-
     const body = await c.req.json();
    
     const prisma = new PrismaClient({
