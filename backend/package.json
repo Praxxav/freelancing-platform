@@ -9,11 +9,17 @@
     "@prisma/client": "^5.19.0",
     "@prisma/extension-accelerate": "^1.1.0",
     "bcrypt": "^5.1.1",
-    "hono": "^4.5.8"
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.2.0",
+    "hono": "^4.5.8",
+    "jsonwebtoken": "^9.0.2",
+    "razorpay": "^2.9.4"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240529.0",
     "@types/bcrypt": "^5.0.2",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/node": "^22.5.4",
     "prisma": "^5.19.0",
     "wrangler": "^3.57.2"
   }
